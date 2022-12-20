@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-import plotly.express as px # simple graphs
+import plotly.express as px 
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go # complex graphs
+import plotly.graph_objects as go 
 import streamlit as st
 import missingno as msno
 import seaborn as sns
@@ -59,7 +59,6 @@ st.plotly_chart(fig3, use_container_width=True)
 
 fig=plt.figure(figsize=(2,4))
 sns.countplot(data=df ,x='type')
-\
 
 st.plotly_chart(fig)
 
