@@ -2,7 +2,6 @@ numpy
 pandas
 plotly
 matplotlib
-plotly.graph_objects
 streamlit
 missingno
 seaborn
