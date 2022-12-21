@@ -1,7 +1,7 @@
 numpy
 pandas
 plotly.express
-matplotlib.pyplot
+matplotlib
 plotly.graph_objects
 streamlit
 missingno
