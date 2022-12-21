@@ -1,7 +1,8 @@
-numpy==1.24.0
-pandas==1.5.2
-plotly==5.11.0
-matplotlib==3.6.2
-streamlit==1.16.0
+numpy
+pandas
+plotly
+matplotlib
+streamlit
 missingno
 seaborn
+openpyxl
