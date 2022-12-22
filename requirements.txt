@@ -2,7 +2,7 @@ numpy
 pandas
 plotly
 matplotlib
-streamlit==1.11.o
+streamlit==1.11.0
 missingno
 seaborn
 openpyxl
