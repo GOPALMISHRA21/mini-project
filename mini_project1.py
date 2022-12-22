@@ -98,3 +98,7 @@ rating_counts=df["rating"].value_counts().reset_index()
 fig=px.bar(rating_counts, 'index', 'rating', title="Ratings counts in netflix",)
 st.plotly_chart(fig, use_container_width=True)
 
+listed_count=df['listed_in'].value_counts()
+fig=px.funnel(listed_count.head(n=10),title='Top 10  category listed' )
+st.plotly_chart(fig, use_container_width=True)
+
